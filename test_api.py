@@ -30,3 +30,8 @@ def test_get_book_by_id():
     assert res['author'] == 'Havard'
     assert res['title'] == 'CS50'
     assert response.status_code == 200
+
+
+@pytest.mark.anand
+def test_anand():
+    assert True == True
